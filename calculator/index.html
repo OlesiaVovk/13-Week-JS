@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='styles/normalize.css'>
+    <title>Calculator</title>
+    <style>
+        .btn {
+            font-size: 15px;
+            border: none;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .btn1 {
+            background: rgb(240, 64, 58);
+        }
+
+        .btn2 {
+            background: rgb(228, 240, 58);
+        }
+
+        .btn3 {
+            background: rgb(58, 240, 73);
+        }
+
+        .btn4 {
+            background: rgb(58, 58, 240);
+        }
+    </style>
+</head>
+
+<body>
+    <button class='btn1 btn' onClick='getAdditionResult()'>Сложение</button>
+    <button class='btn2 btn' onClick='getSubstractionResult()'>Вычитание</button>
+    <button class='btn3 btn' onClick='getMultiplicationResult()'>Умножение</button>
+    <button class='btn4 btn' onClick='getDivisionResult()'>Деление</button>
+
+    <script src='index.js'></script>
+</body>
+
+</html>
